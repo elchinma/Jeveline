@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+
+    font-size: 15px;
+    line-height: 120px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(40, 40, 40);
+}
+
+*::before *::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/* Container */
+
+.container {
+    width: 100%;
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+.container2 {
+    padding-top: 115px;
+    text-align: center;
+    background-color: rgb(237, 235, 235);
+    width: 100%;
+    height: 1100px;
+    max-width: 1550px;
+    margin: 0 auto;
+    transform: translate(0em, -99.60em);
+}
+
+.container3 {
+    padding-top: 185px;
+    width: 100%;
+    height: 1100px;
+    max-width: 1550px;
+    background-color: white;
+    margin: 0 auto;
+    transform: translate(0em, 12em);
+}
+
+/* Logo */
+
+.logo {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/Krug.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    transform: translate(45em, -30em);
+}
+
+.logo2 {
+    width: 450px;
+    height: 450px;
+    background: url("../images/Krug_mini.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    transform: translate(-13em, -96em);
+}
+
+.logo3 {
+    width: 495px;
+    height: 594px;
+    background: url("../images/logo.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    transform: translate(58em, -112.50em);
+}
+
+.logo_title {
+    color: white;
+    font-size: 85px;
+    font-weight: 700;
+    font-family: 'Teko', sans-serif;
+    text-align: left;
+    line-height: 75px;
+    transform: translate(2.20em, 1em);
+}
+
+.logo_jeveline {
+    max-width: 1420px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.logo_text {
+    padding-top: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: white;
+    transform: translate(9.50em, 1em);
+}
+
+.logo-text2 {
+    line-height: 1.8;
+    color: rgb(137, 136, 136);
+    font-size: 15px;
+    transform: translate(12.50em, -1.70em);
+}
+
+.logo_container1 {
+    width: 380px;
+    height: 460px;
+
+    transition: color .5s linear;
+}
+
+.logo_container2 {
+    width: 380px;
+    height: 460px;
+}
+
+.logo_container3 {
+    width: 380px;
+    height: 460px;
+}
+
+.logo_container1:hover {
+    color: brown;
+}
+
+.logo_phone3 {
+    width: 364;
+    height: 548;
+    transform: translate(-19em, 1em);
+}
+
+
+/* Header */
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_logo2 {
+    padding-top: 80px;
+    line-height: 2.5;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: rgb(159, 158, 158);
+    font-size: 20px;
+}
+
+.header_logo3 {
+    line-height: 1.05;
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(56, 33, 55)
+}
+
+.header_logo4 {
+    padding-top: 14px;
+    line-height: 1.7;
+    font-size: 18px
+}
+
+
+/* Nav */
+
+.nav {
+    font-size: 14px;
+}
+
+.nav_link {
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+
+    transition: color .5s linear;
+}
+
+.nav_link:hover {
+    color: rgb(163, 161, 161);
+}
+
+/* Button */
+.button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5%;
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    background-color: rgb(96, 33, 169);
+
+    transition: color .5s linear;
+    transform: translate(28em, 0em);
+}
+
+.button:hover {
+    background-color: rgb(135, 108, 165);
+    color: rgb(176, 166, 187);
+}
+
+.button2 {
+    outline: none; 
+    border: 0;
+    background: transparent;
+    color: #7d1eff;
+    transition: color .5s linear;
+}
+
+.button2:hover {
+    color: rgb(176, 166, 187);
+}
+
+/* Box */
+
+.box-border {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    margin: 0 155px;
+}
+
+.box_container3 {
+    display: flex;
+    transform: translate(17.9em, -30.5em);
+
+}
+
+/* Text */
+
+.text_phone3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    transform: translate(6em, -38em);
+
+    color: rgb(159, 158, 158);
+}
+
+.text2_phone3 {
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    transform: translate(4.90em, -13.50em);
+
+    color: rgb(56, 33, 55)
+}
+
+.text_info1 {
+    text-align: right;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    transform: translate(-4.50em, 1.8em);
+    
+    color: rgb(56, 33, 55)
+}
+
+.text_info2 {
+    text-align: left;
+    line-height: 1.8;
+    font-size: 15px;
+
+    color: rgb(168, 166, 166);
+}
+
+.text_info3 {
+    text-align: right;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    transform: translate(-1.9em, 1.8em);
+    
+    color: rgb(56, 33, 55)
+}
+
+.text_info4 {
+    text-align: left;
+    line-height: 1.8;
+    font-size: 15px;
+
+    color: rgb(168, 166, 166);
+}
+
+.text_info5 {
+    text-align: right;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    transform: translate(-5em, 1.8em);
+    
+    color: rgb(56, 33, 55);
+}
+
+.text_info6 {
+    text-align: left;
+    line-height: 1.8;
+    font-size: 15px;
+
+    color: rgb(168, 166, 166);
+}
+
+
+/* Icon */
+
+.icon_container3 {
+    transform: translate(42.5em, -26.2em);
+  
+}
+
+.icon_micro {
+    color: #7d1eff;
+    transform: translate(-4em, -6.2em);
+}
+
+.icon_phone {
+    color: #7d1eff;
+    transform: translate(-4em, -6.2em);
+}
+
+.icon_signal {
+    color: #7d1eff;
+    transform: translate(-4.8em, -6.2em);
+}
+
+.icon_cart {
+    width: 50px;
+    height: 100px;
+    color: #7d1eff;
+    transform: translate(54em, -8em);
+}
